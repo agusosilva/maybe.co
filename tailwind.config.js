@@ -14,6 +14,9 @@ module.exports = {
       },
     },
     extend: {
+      fontSize: {
+        '4.5xl': '40px',
+      },
       colors:{
         'back-black':'#16161A',
         'borders-black':'#4B4F55',
@@ -21,8 +24,8 @@ module.exports = {
 
       },
       fontFamily:{
-        'ME Regular':"'Monument Extended Regular', sans-serif",
-        'ME UltraBold':"'Monument Extended UltraBold', sans-serif",
+        'ME-Regular':"'Monument Extended Regular', sans-serif",
+        'ME-UltraBold':"'Monument Extended UltraBold', sans-serif",
         'Inter':"'Inter', sans-serif",
     }
     },
